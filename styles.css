@@ -270,8 +270,120 @@ main{
   color: var(--warm-black);
 }
 
+.main-product-detail{
+  position:relative;
+  width:100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 16px;
+  background: var(--warm-black)
+}
 
+.product-detail--batata-logo{
+  position:absolute;
+  width:40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url('assets/imgs/logo_img.svg');
+}
 
+.product-detail--tittle{
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin:0 auto;
+  margin-top: 40px;
+  text-align:center;
+}
+
+.product-detail--tittle h2{
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail--tittle p{
+  margin-bottom:20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--cards{
+  width:100%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding:15px;
+  background-color: var(--black);
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px 0px #00000029;
+}
+
+.product--card-title{
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height:1.8rem;
+  color: var(--just-white);
+}
+
+.product--card-body{
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height:1.8rem;
+  color: #808080;
+}
+
+.product-detail--cards .clock {
+  display: inline-block;
+  width:24px;
+  height: 24px;
+  margin-bottom:10px;
+  background-image: url('assets/icons/clock.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--cards .eye {
+  display: inline-block;
+  width:24px;
+  height: 24px;
+  margin-bottom:10px;
+  background-image: url('assets/icons/eye.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--cards .dollar {
+  display: inline-block;
+  width:24px;
+  height: 24px;
+  margin-bottom:10px;
+  background-image: url('assets/icons/dollar_sign.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--cards .check {
+  display: inline-block;
+  width:24px;
+  height: 24px;
+  margin-bottom:10px;
+  background-image: url('assets/icons/check_circle.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
